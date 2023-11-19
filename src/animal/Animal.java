@@ -1,9 +1,9 @@
 package animal;
 
 public class Animal {
- // フィールド
+    // フィールド
     private String name; // 名前
-    private int age;      // 年齢
+    private int age; // 年齢
 
     // 引数なしのコンストラクタ
     public Animal() {
@@ -30,7 +30,6 @@ public class Animal {
     public void setAge(int age) {
         this.age = age;
     }
-
 
     public void say() {
         System.out.println(name + "です。" + age + "歳です。");
